@@ -13,6 +13,10 @@
 		F94C951F246B63580071F2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94C951D246B63580071F2E1 /* Main.storyboard */; };
 		F94C9521246B635F0071F2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94C9520246B635F0071F2E1 /* Assets.xcassets */; };
 		F94C9524246B635F0071F2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94C9522246B635F0071F2E1 /* LaunchScreen.storyboard */; };
+		F94C952F246B64130071F2E1 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94C952C246B64130071F2E1 /* ryo.jpg */; };
+		F94C9530246B64130071F2E1 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94C952D246B64130071F2E1 /* nagata.jpg */; };
+		F94C9531246B64130071F2E1 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F94C952E246B64130071F2E1 /* taithi.JPG */; };
+		F94C9533246B66810071F2E1 /* Menter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C9532246B66810071F2E1 /* Menter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F94C9520246B635F0071F2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94C9523246B635F0071F2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94C9525246B635F0071F2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94C952C246B64130071F2E1 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		F94C952D246B64130071F2E1 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		F94C952E246B64130071F2E1 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		F94C9532246B66810071F2E1 /* Menter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				F94C9517246B63580071F2E1 /* AppDelegate.swift */,
 				F94C9519246B63580071F2E1 /* SceneDelegate.swift */,
 				F94C951B246B63580071F2E1 /* ViewController.swift */,
+				F94C9532246B66810071F2E1 /* Menter.swift */,
 				F94C951D246B63580071F2E1 /* Main.storyboard */,
 				F94C9520246B635F0071F2E1 /* Assets.xcassets */,
 				F94C9522246B635F0071F2E1 /* LaunchScreen.storyboard */,
 				F94C9525246B635F0071F2E1 /* Info.plist */,
+				F94C952B246B64130071F2E1 /* クラス */,
 			);
 			path = MenterBook;
+			sourceTree = "<group>";
+		};
+		F94C952B246B64130071F2E1 /* クラス */ = {
+			isa = PBXGroup;
+			children = (
+				F94C952C246B64130071F2E1 /* ryo.jpg */,
+				F94C952D246B64130071F2E1 /* nagata.jpg */,
+				F94C952E246B64130071F2E1 /* taithi.JPG */,
+			);
+			path = "クラス";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94C952F246B64130071F2E1 /* ryo.jpg in Resources */,
+				F94C9530246B64130071F2E1 /* nagata.jpg in Resources */,
+				F94C9531246B64130071F2E1 /* taithi.JPG in Resources */,
 				F94C9524246B635F0071F2E1 /* LaunchScreen.storyboard in Resources */,
 				F94C9521246B635F0071F2E1 /* Assets.xcassets in Resources */,
 				F94C951F246B63580071F2E1 /* Main.storyboard in Resources */,
@@ -140,6 +163,7 @@
 			files = (
 				F94C951C246B63580071F2E1 /* ViewController.swift in Sources */,
 				F94C9518246B63580071F2E1 /* AppDelegate.swift in Sources */,
+				F94C9533246B66810071F2E1 /* Menter.swift in Sources */,
 				F94C951A246B63580071F2E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
